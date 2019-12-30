@@ -39,6 +39,6 @@ steps:
   displayName: 'Publish NuGet package'
   inputs:
     command: push
-    publishVstsFeed: 'com.visualstudio.feeds.feedview:0aa5c830-ad49-428c-8ac8-5cb2aab7ff8b'
+    publishVstsFeed: '0aa5c830-ad49-428c-8ac8-5cb2aab7ff8b'
     allowPackageConflicts: true
   condition: succeeded()
