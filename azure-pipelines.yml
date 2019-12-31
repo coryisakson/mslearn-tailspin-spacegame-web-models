@@ -37,7 +37,7 @@ steps:
  
  - task: NuGetAuthenticate@0
   displayName: 'NuGet Authenticate' 
-  
+
 - task: NuGetCommand@2
   displayName: 'Publish NuGet package'
   inputs:
@@ -45,3 +45,4 @@ steps:
     publishVstsFeed: 'Tailspin.SpaceGame.Web.Models'
     allowPackageConflicts: true
   condition: succeeded()
+  
